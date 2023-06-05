@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar";
 
 
 export default function Home() {
   return (
-    <main>
-      Hello
+    <main className="max-w-screen-sm m-auto h-screen">
+      <Navbar />
     </main>
   )
 }
